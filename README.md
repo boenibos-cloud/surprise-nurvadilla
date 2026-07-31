@@ -197,13 +197,13 @@ If you prefer a visual guide, click the thumbnail below to watch the complete st
 >
 > * **What to do:**
 >   1. On the project setup page in Vercel, find the section labeled **`Environment Variables`** (it is a dropdown panel). Click it to expand.
->   2. For each variable below, type the **Key** in the first field, the **Value** in the second field, and click the blue **`Add`** button:
+>   2. For eHappy Birthdayach variable below, type the **Key** in the first field, the **Value** in the second field, and click the blue **`Add`** button:
 >
 > | Key (Environment Variable) | Example Value | What it controls |
 > | :--- | :--- | :--- |
 > | `VITE_USER_NAME` | `Sarah` | The name of the birthday person. |
 > | `VITE_BIRTHDAY_DATE` | `2026-07-25` | The birthday date in `YYYY-MM-DD` format (sets up the countdown). |
-> | `VITE_TITLE` | `Happy Birthday, Sarah! 🌸` | The text shown on the browser tab. |
+> | `VITE_TITLE` | `, Sarah! 🌸` | The text shown on the browser tab. |
 > | `VITE_CARD_TITLE_SURPRISE` | `A Special Gift for You!` | The main title on the final letter envelope. |
 > | `VITE_THEME_COLOR` | `#ff69b4` | The theme color (e.g. pink: `#ff69b4`, red: `#e11d48`, blue: `#2563eb`). |
 >

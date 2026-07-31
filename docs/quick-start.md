@@ -122,7 +122,7 @@ VITE_BIRTHDAY_GENDER=male
 VITE_BIRTHDAY_DATE=2004-03-15
 VITE_BIRTHDAY_CUSTOM_MESSAGE=Proud of the man you've become.
 VITE_BIRTHDAY_WISHER_NAME=Your Sister
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_INTENSITY=medium
 VITE_DURATION=extended
 VITE_SHOW_CAKE_SECTION=true
 VITE_SHOW_VIDEO_SECTION=true
@@ -175,7 +175,7 @@ The family system provides 15 content sections per template, covering personalit
 
 ## Verify It Works
 
-1. The splash screen appears with "A Special Surprise Awaits..."
+1. The splash screen appears with "Sebuah Kejutan Spesial Menantimu..."
 2. Tap anywhere -- the cinematic intro begins
 3. The intro flows through storytelling -> fake chat -> reveal sequence
 4. The main dashboard shows with hero, interest icons, message card, wishes, and sections

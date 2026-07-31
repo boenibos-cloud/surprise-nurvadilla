@@ -221,7 +221,7 @@ export const MainBirthday = () => {
 
         <motion.h1 variants={itemVariants} className="font-display text-4xl sm:text-5xl md:text-8xl lg:text-9xl font-black mb-4 break-words leading-tight px-2">
           <span className="bg-gradient-to-r from-[var(--color-primary)] via-[hsl(45,100%,75%)] to-[hsl(200,80%,70%)] bg-clip-text text-transparent animate-gradient-shift drop-shadow-[0_4px_30px_rgba(255,255,255,0.3)]">
-            {age ? `Happy ${age}th Birthday` : "Happy Birthday"}
+          {age ? `Selamat Ulang Tahun Yang Ke-${age} ❤️` : "Selamat Hari Spesial Untukmu ❤️"}
           </span>
         </motion.h1>
 

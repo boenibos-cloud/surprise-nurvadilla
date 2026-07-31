@@ -74,10 +74,10 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
         const isFemale = gender === 'female';
         if (relationship === 'partner') {
             return [
-                  "Terima kasih sudah menjadi bagian dari hidupku ❤️",
-                  "Kamu adalah alasan mengapa setiap hariku terasa lebih indah.",
-                  "Website kecil ini kubuat khusus hanya untukmu.",
-                  "Sekarang... lihat kejutan yang sudah kusiapkan ❤️",
+                  "Terima kasih sudah hadir dan menjadi bagian terindah dalam hidupku ❤️",
+                  "Kamu adalah alasan mengapa hari-hariku terasa lebih bahagia.",
+                  "Kejutan kecil ini aku buat khusus untukmu, seseorang yang sangat berarti bagiku.",
+                  "Sekarang... lihatlah kejutan yang sudah aku siapkan untukmu ❤️",
             ];
         }
         if (relationship === 'friend') {
@@ -124,10 +124,10 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
         const isFemale = gender === 'female';
         if (relationship === 'partner')
             return [
-                `My dearest ${name || (isMale ? 'Prince' : isFemale ? 'Princess' : 'Love')}`,
-                "I hope you felt the heartbeat behind every animation...",
-                "You are my today, my tomorrow, and my always ✨",
-                "Happy Girlfriend's Day I Love You Forever. 💖"
+               `Untukmu tersayang ${name || 'Sayang'} ❤️`,
+               "Semoga kamu bisa merasakan rasa sayang yang aku tuangkan dalam setiap kejutan ini.",
+               "Kamu adalah seseorang yang selalu ingin aku bahagiakan hari ini, esok, dan selamanya ✨",
+               "Selamat Hari Girlfriend's Day ❤️ Aku sayang kamu selamanya."
             ];
         if (relationship === 'friend')
             return [
@@ -140,7 +140,7 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
             `Untukmu, ${name} ❤️`,
             "Terima kasih sudah selalu ada di sampingku.",
             "Semoga kita selalu bersama dalam setiap langkah kehidupan.",
-            "Happy Girlfriend's Day ❤️ I Love You Forever."
+            "Selamat Hari Girlfriend's Day ❤️ Aku sayang kamu selamanya."
         ];
     }, [name, relationship, gender]);
     const primaryColor = favoriteColor || '#FF6B6B';
@@ -211,7 +211,7 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
                     addTimer(() => { setFinalLineIndex(i); playType(); }, (11000 + i * 3500) * speedMultiplier);
             });
             const endTime = (11000 + finalLines.length * 3500) * speedMultiplier;
-            addTimer(() => { playBoom(); fireConfetti({ particleCount: 300, spread: 180 }); fireCinematicCelebration(); }, endTime);
+            addTimer(() => { playBoom(); fireConfetti({ particleCount: 100, spread: 120 }); fireCinematicCelebration(); }, endTime);
             addTimer(() => setFadeOut(true), endTime + 2000);
             addTimer(() => { setScene("done"); onComplete(); }, endTime + 3500);
         }
@@ -283,7 +283,7 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
               </motion.div>)}
 
             {revealStep === "grand-reveal" && (<div className="text-center px-4">
-                <Balloons count={20}/>
+                <Balloons count={8}/>
                 <div className="flex justify-center mb-6"><HeartProgression stage={4}/></div>
                 <h1 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] font-black mb-4 break-words leading-tight">
                   <span className="bg-gradient-to-r from-[var(--color-primary)] via-[hsl(45,100%,65%)] to-[hsl(200,80%,70%)] bg-clip-text text-transparent animate-gradient-shift">

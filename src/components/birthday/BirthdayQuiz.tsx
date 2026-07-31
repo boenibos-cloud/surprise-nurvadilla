@@ -22,7 +22,11 @@ export const BirthdayQuiz = () => {
         const { name, interests, relationship, gender } = config;
         const base: Question[] = [
             {
-                q: `Who is the most legendary person born on this day?`,
+                q: `Siapakah wanita paling istimewa yang harus dirayakan hari ini? ❤️
+                Pilihan:🌟 Orang biasa
+                ✨ Seseorang yang terkenal
+                ❤️ NurVadilla Alfia Ningrum
+                🐧 Penguin lucu`,
                 options: ["Albert Einstein", "A Celebrity", name, "A Penguin"],
                 correct: 2,
                 reason: `Duh! It's obviously ${name}! Nobody else comes close.`

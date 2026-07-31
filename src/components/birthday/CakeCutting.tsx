@@ -304,7 +304,7 @@ export const CakeCutting = () => {
                 { text: `My ${isMale ? 'Prince' : isFemale ? 'Princess' : 'Everything'}...`, animation: "zoom-in" as const },
                 { text: "Make a wish for our future...", animation: "float" as const },
                 { text: "I love you to the stars and back", animation: "pop-out" as const },
-                { text: "Happy Birthday My Love! ❤️", animation: "typewriter-burst" as const },
+                { text: "Happy Girlfriend's Day My Love ❤️", animation: "typewriter-burst" as const },
                 { text: `Forever Yours ✨`, animation: "pop-out" as const },
             ];
         if (relationship === 'friend')

@@ -599,7 +599,7 @@ VITE_PARTICLE_COUNT=12
 
 **Desktop:**
 ```env
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_INTENSITY=medium
 VITE_PARTICLE_COUNT=40
 # Reserved for future reduced-motion support; not currently parsed
 # VITE_REDUCED_MOTION=false
@@ -616,7 +616,7 @@ VITE_BIRTHDAY_RELATIONSHIP=partner
 VITE_BIRTHDAY_COLOR=#FF1493
 # Reserved for future theme hints; not currently parsed
 # VITE_THEME=romantic
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_INTENSITY=medium
 VITE_PARTICLE_COUNT=12
 # Reserved for future text scaling support; not currently parsed
 # VITE_TEXT_SIZE=normal
@@ -632,11 +632,11 @@ VITE_BIRTHDAY_RELATIONSHIP=friend
 VITE_BIRTHDAY_COLOR=#00FFFF
 # Reserved for future theme hints; not currently parsed
 # VITE_THEME=fun
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_INTENSITY=medium
 VITE_PARTICLE_COUNT=15
 # Reserved for future text scaling support; not currently parsed
 # VITE_TEXT_SIZE=normal
-VITE_ANIMATION_SPEED=fast
+VITE_ANIMATION_SPEED=moderate
 ```
 
 **Example 3: Family Birthday (Accessible)**

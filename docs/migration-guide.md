@@ -201,7 +201,7 @@ v1.x was the initial release with a basic birthday experience, simple animations
    ```env
    VITE_BIRTHDAY_GENDER=female
    VITE_BIRTHDAY_RELATIONSHIP=partner
-   VITE_ANIMATION_INTENSITY=high
+   VITE_ANIMATION_INTENSITY=medium
    VITE_PARTICLE_COUNT=25
    ```
    Note: `VITE_THEME`, `VITE_REDUCED_MOTION`, `VITE_TEXT_SIZE`, and `VITE_HIGH_CONTRAST` are reserved for future use and are not currently parsed.

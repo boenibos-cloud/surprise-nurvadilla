@@ -38,8 +38,8 @@ VITE_PHOTO_3=https://via.placeholder.com/800x600?text=Our+Future
 
 # Animation & Effects
 VITE_ANIMATION_SPEED=moderate
-VITE_ANIMATION_INTENSITY=high
-VITE_PARTICLE_COUNT=150
+VITE_ANIMATION_INTENSITY=medium
+VITE_PARTICLE_COUNT=50
 VITE_MUSIC_ENABLED=true
 
 # Audio (Optional - use HTTPS MP3 URLs)
@@ -71,7 +71,7 @@ VITE_THEME=fun
 VITE_BIRTHDAY_INTERESTS=gaming,basketball,music,memes
 
 # Message & Content
-VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Birthday to my best bro! Let's make this day absolutely legendary! Cheers to more adventures! 🥳
+VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day ❤️ to my best bro! Let's make this day absolutely legendary! Cheers to more adventures! 🥳
 
 # Photos (Optional)
 VITE_PHOTO_1=https://via.placeholder.com/800x600?text=Epic+Moments
@@ -79,8 +79,8 @@ VITE_PHOTO_2=https://via.placeholder.com/800x600?text=Gaming+Sessions
 VITE_PHOTO_3=https://via.placeholder.com/800x600?text=Crazy+Times
 
 # Animation & Effects
-VITE_ANIMATION_SPEED=fast
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_SPEED=moderate
+VITE_ANIMATION_INTENSITY=medium
 VITE_PARTICLE_COUNT=200
 VITE_MUSIC_ENABLED=true
 
@@ -113,7 +113,7 @@ VITE_THEME=romantic
 VITE_BIRTHDAY_INTERESTS=sports,movies,cooking,music
 
 # Message & Content
-VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Birthday to my amazing boyfriend! You complete me in every way. Here's to celebrating YOU today! 💝
+VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day ❤️ to my amazing boyfriend! You complete me in every way. Here's to celebrating YOU today! 💝
 
 # Photos
 VITE_PHOTO_1=https://via.placeholder.com/800x600?text=Us+Together
@@ -122,8 +122,8 @@ VITE_PHOTO_3=https://via.placeholder.com/800x600?text=Forever+Yours
 
 # Animation & Effects
 VITE_ANIMATION_SPEED=moderate
-VITE_ANIMATION_INTENSITY=high
-VITE_PARTICLE_COUNT=150
+VITE_ANIMATION_INTENSITY=medium
+VITE_PARTICLE_COUNT=50
 VITE_MUSIC_ENABLED=true
 
 # Audio
@@ -197,7 +197,7 @@ VITE_THEME=playful
 VITE_BIRTHDAY_INTERESTS=drawing,dancing,gaming,animals
 
 # Message & Content
-VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Birthday to the coolest sister ever! You're amazing and I'm so proud of you. Let's make this day SUPER FUN! 🎉
+VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day ❤️ to the coolest sister ever! You're amazing and I'm so proud of you. Let's make this day SUPER FUN! 🎉
 
 # Photos
 VITE_PHOTO_1=https://via.placeholder.com/800x600?text=Fun+Times
@@ -205,8 +205,8 @@ VITE_PHOTO_2=https://via.placeholder.com/800x600?text=Silly+Moments
 VITE_PHOTO_3=https://via.placeholder.com/800x600?text=Happy+Days
 
 # Animation & Effects (More intense for engagement)
-VITE_ANIMATION_SPEED=fast
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_SPEED=moderate
+VITE_ANIMATION_INTENSITY=medium
 VITE_PARTICLE_COUNT=200
 VITE_MUSIC_ENABLED=true
 
@@ -263,7 +263,7 @@ VITE_ENABLE_CAKE_CUTTING=true
 VITE_ENABLE_PHOTO_GALLERY=true
 VITE_ENABLE_VIDEO_GALLERY=false
 VITE_ENABLE_SOUND_SYSTEM=true
-VITE_ENABLE_PARTICLES=true
+VITE_ENABLE_PARTICLES=false
 VITE_ENABLE_ANIMATIONS=true
 
 # Performance
@@ -312,9 +312,9 @@ VITE_PHOTO_2=https://via.placeholder.com/800x600?text=Our+Connection
 VITE_PHOTO_3=https://via.placeholder.com/800x600?text=Celebrating+You
 
 # Animation & Effects
-VITE_ANIMATION_SPEED=fast
-VITE_ANIMATION_INTENSITY=high
-VITE_PARTICLE_COUNT=150
+VITE_ANIMATION_SPEED=moderate
+VITE_ANIMATION_INTENSITY=medium
+VITE_PARTICLE_COUNT=50
 VITE_MUSIC_ENABLED=true
 
 # Audio

@@ -447,7 +447,7 @@ VITE_BIRTHDAY_RELATIONSHIP=friend
 VITE_BIRTHDAY_COLOR=#00C2FF
 # Reserved for future theme hints; not currently parsed
 # VITE_THEME=fun
-VITE_ANIMATION_SPEED=fast
+VITE_ANIMATION_SPEED=moderate
 VITE_PARTICLE_COUNT=40
 VITE_BIRTHDAY_INTERESTS=gaming,music,food
 VITE_FAVORITE_EMOJIS=party,fire,star
@@ -525,7 +525,7 @@ VITE_BIRTHDAY_COLOR=#FF1493
 VITE_BIRTHDAY_CUSTOM_MESSAGE=My beautiful Sarah, thank you for being the love of my life.
 # Reserved for future theme hints; not currently parsed
 # VITE_THEME=romantic
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_INTENSITY=medium
 VITE_ANIMATION_SPEED=moderate
 VITE_PHOTO_1=https://images.unsplash.com/photo-1530103043960-ef38714abb15?w=800
 VITE_PHOTO_2=https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800
@@ -546,8 +546,8 @@ VITE_BIRTHDAY_COLOR=#00FFFF
 VITE_BIRTHDAY_CUSTOM_MESSAGE=Hey my bro! Another year older but still awesome.
 # Reserved for future theme hints; not currently parsed
 # VITE_THEME=fun
-VITE_ANIMATION_INTENSITY=high
-VITE_ANIMATION_SPEED=fast
+VITE_ANIMATION_INTENSITY=medium
+VITE_ANIMATION_SPEED=moderate
 VITE_PARTICLE_COUNT=30
 VITE_PHOTO_1=https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800
 VITE_PHOTO_2=https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800
@@ -608,8 +608,8 @@ VITE_BIRTHDAY_COLOR=#FF1493
 VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Birthday Emma! You are an amazing girl!
 # Reserved for future theme hints; not currently parsed
 # VITE_THEME=playful
-VITE_ANIMATION_INTENSITY=high
-VITE_ANIMATION_SPEED=fast
+VITE_ANIMATION_INTENSITY=medium
+VITE_ANIMATION_SPEED=moderate
 VITE_PARTICLE_COUNT=20
 VITE_FAVORITE_EMOJIS=balloon,party,confetti,unicorn,sparkle,star,rainbow,ribbon
 # Reserved for future text scaling support; not currently parsed
@@ -630,7 +630,7 @@ VITE_FAMILY_YEARS_KNOWN=30
 VITE_BIRTHDAY_COLOR=#0047AB
 # Reserved for future theme hints; not currently parsed
 # VITE_THEME=energetic
-VITE_ANIMATION_SPEED=fast
+VITE_ANIMATION_SPEED=moderate
 VITE_PARTICLE_COUNT=35
 VITE_BIRTHDAY_INTERESTS=coding,gaming,sport
 ```
@@ -650,7 +650,7 @@ VITE_SPECIAL_MEMORIES=The LAN Party;url|Road Trip 2023;url
 VITE_SHOW_CAKE_SECTION=true
 VITE_SHOW_VIDEO_SECTION=true
 VITE_PARTICLE_COUNT=60
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_INTENSITY=medium
 ```
 
 ### Partner Anniversary-Style
@@ -710,9 +710,9 @@ VITE_ANIMATION_SPEED=moderate
 
 **Desktop**:
 ```env
-VITE_ANIMATION_INTENSITY=high
+VITE_ANIMATION_INTENSITY=medium
 VITE_PARTICLE_COUNT=25-60
-VITE_ANIMATION_SPEED=fast
+VITE_ANIMATION_SPEED=moderate
 ```
 
 ### Accessibility
