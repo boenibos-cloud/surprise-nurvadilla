@@ -19,5 +19,5 @@ export const PHOTO_ASSETS = {
     photo3: envPhoto3,
 };
 export const AUDIO_ASSETS = {
-    bgmUrl: envBgm,
+    bgmUrl: "/musik.mp3",
 };

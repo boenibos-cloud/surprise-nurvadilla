@@ -151,9 +151,9 @@ const envPhotos = parseEnvList(import.meta.env.VITE_PHOTOS, [
 ].filter(Boolean).join('|'));
 const envPhotoCaptions = parseEnvList(import.meta.env.VITE_PHOTO_CAPTIONS);
 const envVideos = [
-    import.meta.env.VITE_VIDEO_1,
-    import.meta.env.VITE_VIDEO_2,
-    import.meta.env.VITE_VIDEO_3,
+    "/video1.mp4",
+    "/video2.mp4",
+    "/video3.mp4",
 ].map(parseEnvString).filter(Boolean) as string[];
 const envLetterTitle = parseEnvString(import.meta.env.VITE_BIRTHDAY_LETTER_TITLE);
 const envLetterOverride = parseEnvString(import.meta.env.VITE_BIRTHDAY_LETTER_OVERRIDE).replace(/\\n/g, '\n');
