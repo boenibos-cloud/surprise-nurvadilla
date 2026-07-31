@@ -18,8 +18,8 @@ export const FinalSurprise = () => {
             Kenangan Spesial Kita 🎞️❤️ 
           </h2>
           <p className="text-xl md:text-2xl text-foreground/60 max-w-2xl mx-auto italic">
-            "A journey of a thousand miles begins with a single step, but it's the moments we share that make it worth traveling."
-          </p>
+            "Mungkin perjalanan kita dimulai dari satu langkah kecil, tetapi setiap detik yang kita lewati bersama menjadi cerita berharga yang ingin aku simpan selamanya"
+        </p>
         </motion.div>
 
         
@@ -43,8 +43,8 @@ export const FinalSurprise = () => {
               <iframe src={config.finalVideoUrl.includes('youtube.com') ? `${config.finalVideoUrl}?autoplay=0&controls=1&rel=0` : config.finalVideoUrl} loading="lazy" className="w-full h-full" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen/>
             </div>
             <div className="p-10 text-center bg-gradient-to-t from-black/80 to-transparent">
-              <h4 className="font-display text-2xl md:text-4xl font-black mb-4">The Final Surprise 🎬</h4>
-              <p className="text-lg md:text-xl text-white/60 font-light">A little something extra to make your heart smile.</p>
+              <h4 className="font-display text-2xl md:text-4xl font-black mb-4">Kejutan Terakhir 🎬</h4>
+              <p className="text-lg md:text-xl text-white/60 font-light">Sesuatu kecil untuk membuat hatimu tersenyum..</p>
             </div>
           </motion.div>)}
 
@@ -60,7 +60,7 @@ export const FinalSurprise = () => {
               <span style={{ color: primaryColor }} className="animate-pulse">Day As Special As You Are</span>
             </h3>
             <p className="text-xl md:text-3xl font-light text-foreground/60 max-w-3xl mx-auto leading-relaxed">
-              Every pixel, every animation, and every word was crafted with love. <br />
+              Setiap gambar, animasi, dan kata dibuat dengan penuh cinta. <br />
               Terima kasih sudah hadir di hidupku ❤️, {config.name}. ✨
             </p>
           </div>

@@ -656,7 +656,7 @@ export const useSpecialMoment = () => {
   const { playBoom, playReveal } = useSoundManager();
 
   const trigger = useCallback(() => {
-    fireConfetti({ particleCount: 100, spread: 120 });
+    fireConfetti({ particleCount: 80, spread: 100 });
     fireStars();
     playBoom();
     setTimeout(() => playReveal(), 500);

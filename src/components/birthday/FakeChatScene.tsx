@@ -16,10 +16,10 @@ export const FakeChatScene = ({ onComplete }: FakeChatSceneProps) => {
     const fullText = "Happy Girlfriend's Day ❤️";
     const retypeFullText = useMemo(() => {
         if (relationship === 'partner')
-            return isMale ? "To the man who holds my heart..." : isFemale ? "To the woman of my dreams..." : "To the soul who completes me...";
+            return isMale ? "To the man who holds my heart..." : isFemale ? "Untuk wanita impianku..." : "Untuk seseorang yang melengkapi hidupku...";
         if (relationship === 'friend')
             return "Wait, a boring text? That's not us! 😂";
-        return "Something special is coming...";
+        return "Sesuatu yang spesial akan datang...";
     }, [relationship, isMale, isFemale]);
     const primaryColor = favoriteColor || '#FF6B6B';
     useEffect(() => {
@@ -76,7 +76,7 @@ export const FakeChatScene = ({ onComplete }: FakeChatSceneProps) => {
                 bubbleOther: "rgba(255, 255, 255, 0.1)",
                 bubbleMe: `${primaryColor}40`,
                 icon: "💖",
-                status: "typing love notes...",
+                status: "menulis pesan cinta...",
             };
         if (relationship === 'friend')
             return {
@@ -86,7 +86,7 @@ export const FakeChatScene = ({ onComplete }: FakeChatSceneProps) => {
                 bubbleOther: "rgba(255, 255, 255, 0.08)",
                 bubbleMe: `${primaryColor}60`,
                 icon: "😎",
-                status: "setting up the vibe...",
+                status: "menyiapkan kejutan...",
             };
         return {
             bg: "rgba(25, 20, 15, 0.95)",
@@ -95,7 +95,7 @@ export const FakeChatScene = ({ onComplete }: FakeChatSceneProps) => {
             bubbleOther: "rgba(255, 255, 255, 0.1)",
             bubbleMe: `${primaryColor}40`,
             icon: "🎈",
-            status: "sending warm vibes...",
+            status: "mengirim kebahagiaan...",
         };
     }, [relationship, primaryColor]);
     return (<div className="fixed inset-0 flex items-center justify-center p-4" style={{ perspective: "1500px" }}>
@@ -126,7 +126,7 @@ export const FakeChatScene = ({ onComplete }: FakeChatSceneProps) => {
             </motion.div>
             
             <motion.div initial={{ opacity: 0, x: -30, scale: 0.9 }} animate={{ opacity: 1, x: 0, scale: 1 }} transition={{ delay: 0.5 }} className="self-start max-w-[85%] px-5 py-4 rounded-[1.5rem] rounded-bl-none text-base font-medium shadow-lg" style={{ background: theme.bubbleOther, color: "rgba(255,255,255,0.9)" }}>
-              {relationship === 'partner' ? "I stayed up late thinking about you... ❤️" : relationship === 'friend' ? "Prepare yourself for something epic... 🚀" : "I have a special surprise for you..."}
+              {relationship === 'partner' ? "Aku selalu memikirkanmu... ❤️" : relationship === 'friend' ? "Prepare yourself for something epic... 🚀" : "Aku punya kejutan spesial untukmu..."}
             </motion.div>
 
             

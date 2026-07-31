@@ -211,7 +211,7 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
                     addTimer(() => { setFinalLineIndex(i); playType(); }, (11000 + i * 3500) * speedMultiplier);
             });
             const endTime = (11000 + finalLines.length * 3500) * speedMultiplier;
-            addTimer(() => { playBoom(); fireConfetti({ particleCount: 100, spread: 120 }); fireCinematicCelebration(); }, endTime);
+            addTimer(() => { playBoom(); fireConfetti({ particleCount: 80, spread: 100 }); fireCinematicCelebration(); }, endTime);
             addTimer(() => setFadeOut(true), endTime + 2000);
             addTimer(() => { setScene("done"); onComplete(); }, endTime + 3500);
         }
@@ -305,7 +305,7 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
 
       
       {flashWhite && <div className="fixed inset-0 z-[60] bg-white/40 pointer-events-none animate-flash"/>}
-      <Sparkles count={15}/>
+      <Sparkles count={5}/>
       {ringPulse && (<div className="fixed inset-0 flex items-center justify-center pointer-events-none z-50">
           <div className="w-64 h-64 rounded-full border-8 animate-ring-expand" style={{ borderColor: primaryColor }}/>
         </div>)}

@@ -48,7 +48,7 @@ const kits: Record<RelationshipType, Omit<TemplateEmojiKit, "relationship">> = {
             avatar: "💖",
             greeting: "Hey my love... 💖",
             followup: "I stayed up late thinking about you... ✨",
-            status: "typing love notes...",
+            status: "menulis pesan cinta...",
         },
         labels: {
             cake: "🎂",
@@ -76,7 +76,7 @@ const kits: Record<RelationshipType, Omit<TemplateEmojiKit, "relationship">> = {
             avatar: "😎",
             greeting: "Yoooo! 👋",
             followup: "Prepare yourself for something epic... 🚀",
-            status: "setting up the vibe...",
+            status: "menyiapkan kejutan...",
         },
         labels: {
             cake: "🎂",
@@ -103,8 +103,8 @@ const kits: Record<RelationshipType, Omit<TemplateEmojiKit, "relationship">> = {
         chat: {
             avatar: "🎈",
             greeting: "Hi there! ✨",
-            followup: "I have a special surprise for you...",
-            status: "sending warm vibes...",
+            followup: "Aku punya kejutan spesial untukmu... 🎁",
+            status: "mengirim kebahagiaan...",
         },
         labels: {
             cake: "🎂",
