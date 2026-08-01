@@ -652,4 +652,4 @@ See `docs/deployment-testing.md` for complete instructions.
 
 **🎉 Birthday Bloom v2.0 - Making celebrations magical!**
 
-*Created with ❤️ for amazing birthday experiences*
+*Created with  for amazing birthday experiences*

@@ -53,7 +53,7 @@ This guide explains how Birthday Bloom is wired so a new contributor can make ch
 | `BirthdayQuiz` | `BirthdayQuiz.tsx` | Interest-aware trivia with score tracking. | `VITE_SHOW_QUIZ_SECTION` |
 | `HeartTree` | `HeartTree.tsx` | SVG stroke-dasharray tree with 5 growth stages, spark particles, quote display. | `VITE_SHOW_HEART_TREE_SECTION` |
 | `FinalSurprise` | `FinalSurprise.tsx` | Memory grid + optional final video embed. | `VITE_SHOW_FINAL_SURPRISE` |
-| `FakeChatScene` | `FakeChatScene.tsx` | Simulates a chat interface: types "Happy Girlfriend's Day ❤️", deletes it, retypes emotional message. | CinematicIntro sub-scene |
+| `FakeChatScene` | `FakeChatScene.tsx` | Simulates a chat interface: types "Happy Girlfriend's Day ", deletes it, retypes emotional message. | CinematicIntro sub-scene |
 | `TypeWriter` | `TypeWriter.tsx` | Character-by-character typing with blinking cursor and optional onComplete callback. | Used across components |
 | `KineticText` | `KineticText.tsx` | Animated text with configurable animation type (float, pop-out, zoom-in). | Used across components |
 | `HeartProgression` | `HeartProgression.tsx` | SVG heart drawn in 4 stages with trail particles. | Used across components |
@@ -265,7 +265,7 @@ No props required -- reads everything from `useBirthdayStore`.
 Main landing page after the cinematic intro. Orchestrates: hero section with interest icons, wishes grid, emotional letter card, hidden gift code reveal, magnetic buttons, plus all section components conditionally rendered by `config.show*` flags.
 
 **Behavior notes**:
-- Cake emoji click counter: 7 clicks triggers the "Happy Girlfriend's Day ❤️" easter egg
+- Cake emoji click counter: 7 clicks triggers the "Happy Girlfriend's Day " easter egg
 - Gift code is auto-generated from relationship + interest mapping (`src/components/birthday/MainBirthday.tsx:72`)
 - Interest icons are mapped via `interestIcons` record using Lucide icons
 - Magnetic mouse-tracking effect on hero via `useMotionValue` + `useSpring`
@@ -368,7 +368,7 @@ interface FakeChatSceneProps {
 }
 ```
 
-Simulated chat interface that types "Happy Girlfriend's Day ❤️", deletes it character-by-character, retypes a relationship-aware emotional message, then displays a special message bubble. Generates different chat themes (colors, icons, status text) per relationship type.
+Simulated chat interface that types "Happy Girlfriend's Day ", deletes it character-by-character, retypes a relationship-aware emotional message, then displays a special message bubble. Generates different chat themes (colors, icons, status text) per relationship type.
 
 **Behavior notes**:
 - Uses async `runSequence` with `await new Promise(r => setTimeout(...))` pattern

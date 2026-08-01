@@ -218,5 +218,5 @@ The following files have been consolidated or removed:
 
 ---
 
-**Made with ❤️ by Naboraj Sarkar**
+**Made with  by Naboraj Sarkar**
 *In the garden of the internet, may your digital memories always bloom.*

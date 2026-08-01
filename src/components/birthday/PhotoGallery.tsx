@@ -3,9 +3,7 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 import { PHOTO_ASSETS } from "@/config/birthday";
 import { useBirthdayStore } from "@/features/core/store/useBirthdayStore";
 import { useIsMobile } from "@/hooks/use-mobile";
-import photo1Default from "@/assets/photo-1.jpg";
-import photo2Default from "@/assets/photo-2.jpg";
-import photo3Default from "@/assets/photo-3.jpg";
+
 export const PhotoGallery = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [lightbox, setLightbox] = useState<number | null>(null);
@@ -20,18 +18,25 @@ export const PhotoGallery = () => {
     const transitionDuration = reducedMotion ? 0.9 : animationPacing === 'fast' ? 0.8 : animationPacing === 'slow' ? 1.5 : 1.2;
     const autoAdvanceDelay = animationPacing === 'fast' ? 4500 : animationPacing === 'slow' ? 8500 : 6000;
     const photos = useMemo(() => {
+        const defaultPhotos = [
+        "/foto1.jpg",
+        "/foto2.jpg",
+        "/foto3.jpg",
+        "/foto4.jpg",
+      ];
         const envPhotos = config.photos?.map((src, index) => ({
-            src,
-            fallback: [photo1Default, photo2Default, photo3Default][index % 3],
-            key: `env-${index}`,
+             src,
+        fallback: defaultPhotos[index % defaultPhotos.length],
+        key: `env-${index}`,
         })) ?? [];
         const base = envPhotos.length > 0
             ? envPhotos
             : [
-                { src: PHOTO_ASSETS.photo1 || photo1Default, fallback: photo1Default, key: "p1" },
-                { src: PHOTO_ASSETS.photo2 || photo2Default, fallback: photo2Default, key: "p2" },
-                { src: PHOTO_ASSETS.photo3 || photo3Default, fallback: photo3Default, key: "p3" },
-            ].filter(p => p.src !== null);
+               { src: PHOTO_ASSETS.photo1 || "/foto1.jpg", fallback: "/foto1.jpg", key: "p1" },
+               { src: PHOTO_ASSETS.photo2 || "/foto2.jpg", fallback: "/foto2.jpg", key: "p2" },
+               { src: PHOTO_ASSETS.photo3 || "/foto3.jpg", fallback: "/foto3.jpg", key: "p3" },
+               { src: "/foto4.jpg", fallback: "/foto4.jpg", key: "p4" },
+               ].filter(p => p.src !== null);
         const captions = relationship === 'partner' ? [
             "Every moment with you is a gift 💖",
             "Building our beautiful future ✨",

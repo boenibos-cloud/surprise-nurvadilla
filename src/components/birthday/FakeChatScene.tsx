@@ -161,7 +161,7 @@ export const FakeChatScene = ({ onComplete }: FakeChatSceneProps) => {
         <AnimatePresence>
           {(phase === "special") && (<motion.div initial={{ opacity: 0, y: 30, scale: 0.8, filter: "blur(10px)" }} animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} exit={{ opacity: 0, scale: 1.2, filter: "blur(20px)" }} className="text-center mt-16 px-6">
               <p className="text-3xl md:text-4xl font-display font-black leading-tight bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent">
-                {relationship === 'partner' ? `Because ${isMale ? 'a King' : isFemale ? 'a Queen' : 'someone special'} like you deserves more than just words...` : relationship === 'friend' ? "Warning: High levels of legend-ness detected! ⚠️" : "But you deserve a much more magical surprise..."}
+                {relationship === 'partner' ? `Because ${isMale ? 'a King' : isFemale ? 'a Queen' : 'someone special'} like you deserves more than just words...` : relationship === 'friend' ? "Warning: High levels of legend-ness detected! ⚠️" : "Tapi kamu pantas mendapatkan kejutan yang jauh lebih istimewa, karena kamu adalah seseorang yang sangat berharga dalam hidupku... ❤️✨"}
               </p>
               <motion.div animate={{
                 scale: [1, 1.3, 1],

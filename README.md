@@ -990,7 +990,7 @@ Thank you to all the incredible people who have contributed to making Birthday B
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by Naboraj Sarkar. © 2024-2026 Naboraj Sarkar.</sub>
+  <sub>Built with  by Naboraj Sarkar. © 2024-2026 Naboraj Sarkar.</sub>
 </div>
 
 **[Back to Top ↑](#-birthday-bloom--advanced-animated-birthday-website-generator)**

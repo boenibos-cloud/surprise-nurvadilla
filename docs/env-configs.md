@@ -71,7 +71,7 @@ VITE_THEME=fun
 VITE_BIRTHDAY_INTERESTS=gaming,basketball,music,memes
 
 # Message & Content
-VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day ❤️ to my best bro! Let's make this day absolutely legendary! Cheers to more adventures! 🥳
+VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day  to my best bro! Let's make this day absolutely legendary! Cheers to more adventures! 🥳
 
 # Photos (Optional)
 VITE_PHOTO_1=https://via.placeholder.com/800x600?text=Epic+Moments
@@ -113,7 +113,7 @@ VITE_THEME=romantic
 VITE_BIRTHDAY_INTERESTS=sports,movies,cooking,music
 
 # Message & Content
-VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day ❤️ to my amazing boyfriend! You complete me in every way. Here's to celebrating YOU today! 💝
+VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day  to my amazing boyfriend! You complete me in every way. Here's to celebrating YOU today! 💝
 
 # Photos
 VITE_PHOTO_1=https://via.placeholder.com/800x600?text=Us+Together
@@ -197,7 +197,7 @@ VITE_THEME=playful
 VITE_BIRTHDAY_INTERESTS=drawing,dancing,gaming,animals
 
 # Message & Content
-VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day ❤️ to the coolest sister ever! You're amazing and I'm so proud of you. Let's make this day SUPER FUN! 🎉
+VITE_BIRTHDAY_CUSTOM_MESSAGE=Happy Girlfriend's Day  to the coolest sister ever! You're amazing and I'm so proud of you. Let's make this day SUPER FUN! 🎉
 
 # Photos
 VITE_PHOTO_1=https://via.placeholder.com/800x600?text=Fun+Times

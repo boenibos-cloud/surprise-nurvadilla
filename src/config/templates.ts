@@ -26,7 +26,20 @@ export const EMOTIONAL_LETTERS = {
     partner: {
         male: (name: string) => `My King, My Strength, My Forever ${name},
 
-In a world that often moves too fast, you are the stillness where my heart finds peace. Today isn't just about celebrating the day you were born; it's about celebrating every heartbeat you've shared with me. You aren't just my partner; you are the architect of my happiness, the guardian of my dreams, and the soul that mirrors my own.
+Di dunia yang sering berjalan terlalu cepat, kamu adalah tempat hatiku menemukan ketenangan.
+Hari ini bukan hanya tentang merayakan hari kelahiranmu, tetapi juga merayakan setiap kebahagiaan dan cinta yang telah kamu berikan kepadaku.
+
+Kamu bukan hanya pasanganku, kamu adalah alasan di balik banyak senyumku,
+penjaga mimpi-mimpiku, dan seseorang yang membuat hidupku terasa lebih lengkap.
+
+Kehadiranmu adalah cahaya yang menerangi hari-hariku.
+Kebaikanmu membuat dunia kecilku menjadi lebih indah.
+Aku berjanji akan selalu berada di sisimu dalam setiap keadaan,
+tertawa bersamamu dalam setiap kebahagiaan, dan mencintaimu lebih dalam setiap harinya.
+
+Selamat ulang tahun, cintaku.
+Kamu adalah petualangan terindah dalam hidupku dan tempat ternyaman untuk hatiku pulang. ❤️
+. Today isn't just about celebrating the day you were born; it's about celebrating every heartbeat you've shared with me. You aren't just my partner; you are the architect of my happiness, the guardian of my dreams, and the soul that mirrors my own.
 
 Your presence is the sun that breaks through my darkest clouds. Your kindness is a melody that plays in the background of my life, making everything more beautiful. I promise to stand by you through every storm, to laugh with you in every sunbeam, and to love you more with every breath I take.
 

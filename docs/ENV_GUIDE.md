@@ -57,7 +57,7 @@ The store normalizes aliases: e.g., `"love"` → `partner`, `"mom"` → `mother`
 | Variable | Type | Default | Purpose |
 |---|---|---|---|
 | `VITE_BIRTHDAY_CUSTOM_MESSAGE` | string | `""` | Custom message displayed in the letter card. When set, replaces the auto-generated message. |
-| `VITE_BIRTHDAY_LETTER_TITLE` | string | `"Surat Untukmu ❤️npm run dev
+| `VITE_BIRTHDAY_LETTER_TITLE` | string | `"Surat Untukmu npm run dev
 "` | Letter section heading. |
 | `VITE_BIRTHDAY_LETTER_OVERRIDE` | escaped string | `""` | Full custom letter body. Use `\n` for newlines. The `\n` is converted to actual newlines in `useBirthdayStore`. |
 | `VITE_BIRTHDAY_COLOR` | hex | `#FF6B6B` | Primary accent color. Also accepted as `VITE_FAVORITE_COLOR`. Used for buttons, glows, cards, gradients. |

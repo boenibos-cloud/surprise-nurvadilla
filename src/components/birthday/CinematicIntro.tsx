@@ -89,12 +89,11 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
                 "But then I remembered... that's just not our style! 😎"
             ];
         }
-        return [
-            "Today is a day that belongs to history...",
-            `Because we are celebrating the ${isMale ? 'King' : isFemale ? 'Queen' : 'Icon'} of the family!`,
-            "Someone whose presence is a gift to every single one of us...",
-            "I wanted to build something that lasts as long as the memories we share...",
-            "So, sit back, relax, and enjoy the show! ✨"
+        return [ "✨ Hari ini adalah hari yang sangat spesial...",
+            `Karena hari ini aku merayakan seseorang yang paling berarti dalam hidupku ❤️`,
+            "Seseorang yang selalu memberikan kebahagiaan, senyuman, dan warna baru di setiap hariku...",
+            "Aku membuat sesuatu yang sederhana ini untuk mengingatkan betapa berharganya kamu bagiku...",
+            "Jadi, duduk santai dan nikmati kejutan kecil ini khusus untukmu ✨"
         ];
     }, [relationship, gender]);
     const postChatLines = useMemo(() => {
@@ -113,10 +112,9 @@ export const CinematicIntro = ({ onComplete }: CinematicIntroProps) => {
                 "Sekarang... lihat kejutan yang sudah kusiapkan ❤️",
             ];
         return [
-            "You bring so much warmth into our lives...",
-            "You deserve a celebration as bright as your smile.",
-            "We put our hearts into this, just for you...",
-            "Let the celebration begin! ✨",
+            "Kamu membawa begitu banyak kebahagiaan dan cinta dalam hidupku...",
+            "Semoga hari spesialmu seindah senyummu ❤️",
+            "Aku membuat kejutan kecil ini dengan sepenuh hatiku, hanya untukmu..."
         ];
     }, [relationship]);
     const finalLines = useMemo(() => {

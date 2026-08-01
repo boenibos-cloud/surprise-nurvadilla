@@ -125,7 +125,7 @@ const envRelationship: RelationshipType = rawRel.includes('partner') || rawRel.i
                                                                 rawRel.includes('mentor') || rawRel.includes('teacher') ? 'mentor' :
                                                                     'family';
 const envColor = parseEnvString(import.meta.env.VITE_BIRTHDAY_COLOR, import.meta.env.VITE_FAVORITE_COLOR) || '#FF6B6B';
-const envMessage = parseEnvString(import.meta.env.VITE_BIRTHDAY_CUSTOM_MESSAGE, import.meta.env.VITE_CUSTOM_MESSAGE);
+const envMessage = "Selamat Hari Girlfriend's Day Sayang ";
 const envSenderName = parseEnvString(import.meta.env.VITE_BIRTHDAY_WISHER_NAME, import.meta.env.VITE_WISHER_NAME);
 const envAge = parseEnvNumber(import.meta.env.VITE_BIRTHDAY_AGE, null);
 const envGender = (import.meta.env.VITE_BIRTHDAY_GENDER as GenderType) || 'other';
@@ -171,9 +171,9 @@ const envMemories = import.meta.env.VITE_SPECIAL_MEMORIES
         return { text: text?.trim(), image: image?.trim() };
     })
     : [];
-const envPassword = parseEnvString(import.meta.env.VITE_PASSWORD);
-const envPasswordHint = parseEnvString(import.meta.env.VITE_PASSWORD_HINT);
-const envPasswordFormat = parseEnvString(import.meta.env.VITE_PASSWORD_FORMAT) || 'MMDD';
+const envPassword = "010106";
+const envPasswordHint = "Tanggal spesial kita ❤️";
+const envPasswordFormat = "MMDD";
 const envPasswordRequired = import.meta.env.VITE_PASSWORD_REQUIRED !== undefined
     ? parseEnvBoolean(import.meta.env.VITE_PASSWORD_REQUIRED, false)
     : undefined;
